@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>72655393341-kf50m5m7vohlu6j04p8gdg91kvmn9q3f.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.72655393341-kf50m5m7vohlu6j04p8gdg91kvmn9q3f</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCLPkphD3Q2O8RPvp4B5No_AUmnrLSJ2gU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>72655393341</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>www.kinstugidevs.com.kingslyJamal</string>
+	<key>PROJECT_ID</key>
+	<string>universal-delive-1567962523581</string>
+	<key>STORAGE_BUCKET</key>
+	<string>universal-delive-1567962523581.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:72655393341:ios:2f07cab4f76af3a1e0d054</string>
+	<key>DATABASE_URL</key>
+	<string>https://universal-delive-1567962523581.firebaseio.com</string>
+</dict>
+</plist>
