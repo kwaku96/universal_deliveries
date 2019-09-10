@@ -10,6 +10,10 @@
         android:name="io.flutter.app.FlutterApplication"
         android:label="kingsly_jamal"
         android:icon="@mipmap/ic_launcher">
+
+        <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDx43CC6dZy9nC3GAH1dDt0YVwiQqyoGXc"/>
+
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
