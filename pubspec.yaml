@@ -26,6 +26,8 @@ dependencies:
   google_maps_flutter: ^0.5.11
   line_icons: ^0.2.0
 
+  firebase_auth: ^0.14.0+5
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
