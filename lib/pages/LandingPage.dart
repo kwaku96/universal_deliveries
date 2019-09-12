@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kingsly_jamal/repository/UserRepository.dart';
 import '../components/gradient_background.dart';
 import '../themes/textTheme.dart';
 
@@ -7,6 +8,13 @@ import 'LoginPage.dart';
 import 'SignUpPage.dart';
 
 class LandingPage extends StatelessWidget {
+
+  final UserRepository userRepository;
+
+  LandingPage({
+    @required this.userRepository
+  }):assert(userRepository != null);
+
   @override
   Widget build(BuildContext context) {
     return Stack(
@@ -65,7 +73,9 @@ class LandingPage extends StatelessWidget {
                   ),
                   onPressed: (){
                     Navigator.of(context).push(
-                        MaterialPageRoute(builder: (context)=> LoginPage())
+                        MaterialPageRoute(
+                          builder: (context)=> LoginPage(userRepository: userRepository,)
+                        )
                     );
                   },
                   color: Colors.white,

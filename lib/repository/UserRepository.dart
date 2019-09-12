@@ -80,5 +80,7 @@ class UserRepository{
     return (await _firebaseAuth.currentUser()).email;
   }
 
-  
+  Future<void> signOut() async {
+    return await _firebaseAuth.signOut();
+  }
 }
